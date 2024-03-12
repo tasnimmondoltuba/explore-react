@@ -7,6 +7,7 @@ import Counter from './couter';
 import Team from './Team';
 import Users from './users';
 import Friends from './friends';
+import Posts from './Posts';
 
 function App() {
 
@@ -25,6 +26,21 @@ function App() {
   return (
     <>
      <h3>React Core Concepts 2</h3>
+
+
+     <h4>Recap</h4>
+     {/* recap */}
+     <ol>
+      <li>Components</li>
+      <li>JSX</li>
+      <li>Props</li>
+      <li>Event Handler</li>
+      <li>State</li>
+      <li>load data</li>
+     </ol>
+     <hr/>
+     <Posts></Posts>
+     {/* recap end */}
      <Friends></Friends>
      <Users></Users>
      <Team></Team>
